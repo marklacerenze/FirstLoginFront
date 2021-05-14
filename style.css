@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    background-image: url("images/macprog.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.container{
+    padding: 90px 150px;
+}
+
+.login{
+    background-color: #707070;
+    opacity: 0.9;
+    border-top: 100px;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.2;
+}
+
+legend{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #bbb;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.titles{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: unset;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #eee;
+    width: 300px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+div .pais{
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #eee;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+}
+
+.register{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #61E7A2;
+    text-decoration: none;
+}
+
+.register:hover{
+    background: linear-gradient(to bottom, #3FA16F, #61E7A2 ) ;
+    color: white;
+    transition: all 0.1s ease;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+p:hover{
+    color: black;
+}
+
+.opt{
+    margin: 0;
+    padding: 0;
+    padding: 30px 17px;
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
